@@ -1,0 +1,27 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "build2": "webpack --config webpack.config2.js",
+    "devs2": "webpack-dev-server --contentBase src",
+    "devs": "webpack-dev-server",
+    "server2": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
